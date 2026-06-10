@@ -1,0 +1,17 @@
+/* Color cuando la pestaña está activa (seleccionada) */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #A4242C !important;
+    color: #FAFAFA !important;
+}
+
+/* Color cuando pasas el mouse por encima (hover) */
+.nav-pills .nav-link:hover {
+    background-color: #482024 !important;
+    color: #FAFAFA !important;
+    transition: background-color 0.3s ease; /* Le da un efecto suave al pasar el mouse */
+}
+
+/* Color por defecto del texto del menú */
+.nav-pills .nav-link {
+    color: #FAFAFA !important;
+}
