@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 
 # REGISTRAR PÁGINA REGIÓN
-register_page(__name__, path='/region', name='Región')
+register_page(__name__, path='/region', name='Región', order=3)
 
 # --- 1. COLORES CORPORATIVOS CNH ---
 CNH_ROJO = "#A4242C"

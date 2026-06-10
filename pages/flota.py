@@ -10,7 +10,7 @@ import io
 import base64
 
 # REGISTRAR PÁGINA FLOTA
-register_page(__name__, path='/flota', name='Flota')
+register_page(__name__, path='/flota', name='Flota', order=2)
 
 # --- COLORES CNH ---
 CNH_ROJO = "#A4242C"

@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 # REGISTRAR ESTA PÁGINA COMO LA PRINCIPAL
-register_page(__name__, path='/', name='Reporte')
+register_page(__name__, path='/', name='Reporte', order=1)
 
 # --- 2. COLORES CNH ---
 CNH_ROJO = "#A4242C"
